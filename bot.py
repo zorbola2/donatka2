@@ -10,7 +10,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from datetime import datetime, timedelta
 import re
 
-API_TOKEN = '8203398409:AAEZjF_apz2fbvDkJGDvWn2SdI-kNMQUGUQ'
+API_TOKEN = os.getenv('8203398409:AAEZjF_apz2fbvDkJGDvWn2SdI-kNMQUGUQ')
 ADMIN_IDS = [5282167584, 8351236421]
 SUPPORT_GROUP_ID = -5057766805
 REVIEWS_CHANNEL_ID = '-1003658648586'
