@@ -1,5 +1,10 @@
 import json
 import os
+print("=== DEBUG ===")
+print("API_TOKEN in env?", "API_TOKEN" in os.environ)
+print("API_TOKEN value:", repr(os.getenv("API_TOKEN")))
+print("All env keys:", list(os.environ.keys()))
+print("=============")
 import asyncio
 from aiogram import Bot, Dispatcher, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
